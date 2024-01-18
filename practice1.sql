@@ -1,1 +1,11 @@
-select 
+--b1
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE like 'USA' AND POPULATION > 120000;
+--B2
+select *
+from CITY
+where COUNTRYCODE like 'JPN';
+--B3
+select CITY, STATE
+from STATION;
